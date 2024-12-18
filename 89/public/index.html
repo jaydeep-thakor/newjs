@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    
+    <script>
+         
+         // --------------- to rest api by using html file ---------------
+         async function testApi(){
+            let a = await fetch("/", {method: "post"})
+            let b = await a.text();
+            console.log(b)
+         }
+        // --------------- to rest api by using html file ---------------
+         testApi();
+
+    </script>
+
+</body>
+</html>

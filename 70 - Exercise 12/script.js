@@ -1,0 +1,1 @@
+// ************************* Exercise 12 - create 5 boxes and assign a random color to each box ************************* 
